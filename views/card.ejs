@@ -1,0 +1,16 @@
+<%- include('header'); -%>
+<h1>
+  Employees pictures
+</h1>
+
+<div class="list">
+    <% employees.forEach(function(employee){ %>
+        <div class="employee">
+            <img src="<%=employee.image%>">
+            <div>Name: <span class="name"><%=employee.name%></span></div>
+            <div>Position: <span class="position"><%=employee.position%></span></div>
+        </div>
+    <% }) %>
+</div>
+
+<%- include('footer'); -%>
