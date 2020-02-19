@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Employees pictures</title>
+        <style>
+            body {
+                background-color: #777;
+            }
+            h1 {
+                color: #ccc;
+                font-family: verdana;
+                text-align: center;
+                padding: 40px;
+                border: 1px solid #333a;
+                border-radius: 9px;
+                background-color: #333a;
+            }
+            .list {
+                display: grid;
+                grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+            }
+            .employee {
+                color: #e8e8e8b5;
+                padding-top: 7px;
+                margin: 2px;
+                text-align: center;
+                border: 1px solid #333a;
+                border-radius: 5px;
+                background-color: #333a;
+            }
+            .name, .position {
+                text-transform: lowercase;
+            }
+            .name::first-letter, .position::first-letter, span::first-letter {
+                text-transform: capitalize;
+            }
+            img {
+                border-radius: 50%;
+                margin: 0 auto;
+                display: block;
+                max-width: 20px;
+            }
+        </style>
+    </head>
+    <body>
