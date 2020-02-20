@@ -4,6 +4,8 @@
   "description": "This is the node.js session example app",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "start2": "node index2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
